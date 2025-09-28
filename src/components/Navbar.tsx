@@ -5,11 +5,11 @@ export default function Navbar({ tab, setTab }: { tab: string, setTab: React.Dis
 	return (
 		<nav className="w-full fixed top-0 left-0 flex flex-row justify-between items-center p-1 bg-transparent shadow-lg backdrop-blur-sm">
 			<span>
-				<h1 className="text-3xl">Diet Plan</h1>
+				<h1 className="text-4xl">Fast Diet</h1>
 			</span>
 			<span>
 				<TabButton name="Create" value="create" tab={tab} setTab={setTab} />
-				<TabButton name="Diet Plan" value="plan" tab={tab} setTab={setTab} />
+				<TabButton name="Diet Plan" value="diet-plan" tab={tab} setTab={setTab} />
 			</span>
 		</nav>
 	)
